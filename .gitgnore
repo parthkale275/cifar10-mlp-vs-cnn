@@ -1,0 +1,19 @@
+# CIFAR-10 dataset (auto-downloaded by torchvision, ~170MB — don't commit)
+data/
+**/data/
+
+notebooks/data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.swp
+
+# Colab
+.config/

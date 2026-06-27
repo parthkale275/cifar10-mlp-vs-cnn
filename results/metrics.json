@@ -1,0 +1,43 @@
+{
+  "mlp_test_accuracy": 57.4,
+  "mlp_shuffled_test_accuracy": 57.42,
+  "capacity_results": [
+    {
+      "label": "1L-64",
+      "params": 197322,
+      "train_acc": 53.202222222222225,
+      "val_acc": 51.62,
+      "test_acc": 51.58
+    },
+    {
+      "label": "1L-256",
+      "params": 789258,
+      "train_acc": 65.33111111111111,
+      "val_acc": 55.6,
+      "test_acc": 55.22
+    },
+    {
+      "label": "2L-512x256",
+      "params": 1707274,
+      "train_acc": 67.74,
+      "val_acc": 57.2,
+      "test_acc": 57.07
+    },
+    {
+      "label": "2L-1024x512",
+      "params": 3676682,
+      "train_acc": 73.15333333333334,
+      "val_acc": 57.36,
+      "test_acc": 57.85
+    },
+    {
+      "label": "3L-1024x512x256",
+      "params": 3805450,
+      "train_acc": 70.59333333333333,
+      "val_acc": 56.88,
+      "test_acc": 57.86
+    }
+  ],
+  "cnn_test_accuracy": 82.01,
+  "cnn_parameters": 1342122
+}
